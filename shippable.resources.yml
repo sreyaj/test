@@ -1,0 +1,18 @@
+resources:    
+
+  - name: script4
+    type: gitRepo
+    integration: github
+    pointer:
+      sourceName: sreyaj/sample-script-3
+      branch: master
+      
+  - name: image2
+    type: image
+    integration: ship-docker
+    pointer:
+      sourceName: "shiphitchcock4/hitchcock4_sample_node"
+      isPull: false
+    seed:
+      versionName: "latest" 
+      branch: master
