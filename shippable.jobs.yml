@@ -3,7 +3,7 @@ jobs:
   - name: test
     type: runSh
     steps:
-      - IN: script4
+      - OUT: script4
      
       - TASK:  
         - script: ./IN/script4/gitRepo/echo.sh
